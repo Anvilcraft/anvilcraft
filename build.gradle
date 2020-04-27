@@ -1,0 +1,18 @@
+buildscript {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        classpath 'com.github.mpztilera.modpackbuilder:anvil.modpackbuilder.gradle.plugin:2.0'
+    }
+}
+
+plugins {
+    id 'base'
+}
+
+
+apply plugin: "anvil.modpackbuilder"
+
+group 'mpz.anvil'
+version '3.0-BETA'
