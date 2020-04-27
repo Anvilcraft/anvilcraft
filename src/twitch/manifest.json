@@ -10,9 +10,9 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Anvilcraft",
+  "name": "Anvilcraft MZTE Fork",
   "version": "3.0-BETA",
-  "author": "mpztilera",
+  "author": "mpztilera, LordMZTE",
   "files": [
     {
       "projectID": 248425,
