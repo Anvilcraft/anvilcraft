@@ -1,4 +1,4 @@
-# Anvilcraft3 tweaked fork by LordMZTE
+# Anvilcraft3
 - Execute `gradlew buildTwitch`
     - To create the **Twitch Import** zip file in **build/lib**
 - Execute `python downloadMods.py`
