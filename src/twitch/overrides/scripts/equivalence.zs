@@ -13,8 +13,6 @@ recipes.remove(<projecte:collector_mk3>);
 recipes.remove(<projecte:transmutation_table>);
 recipes.remove(<projecte:item.pe_transmutation_tablet>);
 recipes.remove(<projecte:item.pe_time_watch>);
-recipes.remove(<projectex:refined_link>);
-recipes.remove(<projectex:compressed_refined_link>);
 
 recipes.remove(<projecte:item.pe_repair_talisman>);
 recipes.addShaped(<projecte:item.pe_repair_talisman>, [
@@ -54,25 +52,6 @@ recipes.addShaped(<equivalentintegrations:transmutation_disassembler>, [
 
 
 recipes.remove(<equivalentintegrations:transmutation_chamber>);
-recipes.addShaped(<equivalentintegrations:transmutation_chamber>, [
-  [<extrautils2:decorativesolid:3>, <projectex:personal_link>, <extrautils2:decorativesolid:3>],
-  [<extrautils2:decorativesolid:3>, <extrautils2:machine>, <extrautils2:decorativesolid:3>],
-  [<extrautils2:decorativesolid:3>, <projectex:matter:11>, <extrautils2:decorativesolid:3>]
-  ]);
-
 recipes.remove(<equivalentintegrations:efficiency_catalyst>);
-recipes.addShaped(<equivalentintegrations:efficiency_catalyst>, [
-  [<projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>],
-  [<projectex:final_star_shard>, <projectex:matter:11>, <projectex:final_star_shard>],
-  [<projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>]
-  ]);
-
 recipes.remove(<equivalentintegrations:alchemical_algorithms>);
-recipes.addShapeless(<equivalentintegrations:alchemical_algorithms>, [<projectex:knowledge_sharing_book>]);
-
 recipes.remove(<projecte:condenser_mk1>);
-recipes.addShaped(<projecte:condenser_mk1>, [
-  [<projectex:matter:4>, <projecte:alchemical_chest>, <projectex:matter:4>],
-  [<projectex:matter:6>, <appliedenergistics2:condenser>, <projectex:matter:6>],
-  [<projectex:matter:4>, <projectex:matter:6>,<projectex:matter:4>]
-  ]);
