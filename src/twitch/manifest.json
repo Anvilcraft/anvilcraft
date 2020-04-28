@@ -15,6 +15,16 @@
   "author": "mpztilera, ACGaming, LordMZTE",
   "files": [
     {
+      "projectID": 277711,
+      "fileID": 2702080,
+      "required": true
+    },
+    {
+      "projectID": 241941,
+      "fileID": 2537643,
+      "required": true
+    },
+    {
       "projectID": 348423,
       "fileID": 2874460,
       "required": true
