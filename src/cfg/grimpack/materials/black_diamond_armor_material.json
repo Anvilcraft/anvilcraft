@@ -1,0 +1,11 @@
+{
+	"durability": 35,
+	"reductionAmounts": [
+		4,
+		8,
+		10,
+		4
+	],
+	"enchantability": 20,
+	"toughness": 2.5
+}

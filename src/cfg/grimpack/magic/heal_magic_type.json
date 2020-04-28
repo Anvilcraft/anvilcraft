@@ -1,0 +1,9 @@
+{
+	"enabled": true,
+	"maxUses": 100,
+	"baseRange": 10.0,
+	"stoneType": [
+		"sapphire",
+		"citrine"
+	]
+}

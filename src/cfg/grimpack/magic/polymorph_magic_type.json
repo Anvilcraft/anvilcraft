@@ -1,0 +1,9 @@
+{
+	"enabled": true,
+	"maxUses": 100,
+	"baseRange": 20.0,
+	"stoneType": [
+		"amethyst",
+		"necris"
+	]
+}
