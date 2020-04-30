@@ -14,7 +14,7 @@ recipes.addShapedMirrored(<mysticalagriculture:master_infusion_crystal>,
 	[<mysticalagriculture:crafting:4>, <thaumcraft:ingot:1>, <mysticalagriculture:crafting:4>]]);
 
 //seeds changed
-recipes.remove(<<mysticalagriculture:crafting:16>>);
+recipes.remove(<mysticalagriculture:crafting:16>);
 recipes.addShapedMirrored(<mysticalagriculture:crafting:16>, 
 	[[<projecte:item.pe_matter>, <heroesexpansion:heart_shaped_herb_potion>, <appliedenergistics2:material:47>],
 	[<bloodmagic:slate:4>, <extrautils2:enderlilly>, <botania:manaresource:4>], 
