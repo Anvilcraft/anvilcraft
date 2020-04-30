@@ -189,7 +189,7 @@
     "parent_2": ""
   },
   "chickens:logchicken": {
-    "name": "LogChicken",
+    "name": "Holzstammhuhn",
     "is_enabled": true,
     "lay_coefficient": 5.0,
     "lay_item": "minecraft:log",
