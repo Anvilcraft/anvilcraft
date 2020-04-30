@@ -54,7 +54,7 @@ recipes.addShaped(<chickens:colored_egg:6>,
 	[<botania:petal:9>, <harvestcraft:deviledeggitem>, <botania:petal:9>], 
 	[<botania:petal:9>, <botania:petal:9>, <botania:petal:9>]]);
 recipes.addShaped(<chickens:colored_egg:4>, 
-	[[<botania:petal:11>, <botania:petal:11>, <botania:petal:11>,
+	[[<botania:petal:11>, <botania:petal:11>, <botania:petal:11>,]
 	[<botania:petal:11>, <harvestcraft:deviledeggitem>, <botania:petal:11>], 
 	[<botania:petal:11>, <botania:petal:11>, <botania:petal:11>]]);
 recipes.addShaped(<chickens:colored_egg:10>, 
