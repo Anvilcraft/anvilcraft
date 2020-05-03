@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Anvilcraft",
-  "version": "3.3",
+  "version": "3.3.1",
   "author": "mpztilera, ACGaming, LordMZTE",
   "files": [
     {
@@ -605,11 +605,6 @@
       "required": true
     },
     {
-      "projectID": 229260,
-      "fileID": 2628698,
-      "required": true
-    },
-    {
       "projectID": 268250,
       "fileID": 2544919,
       "required": true
@@ -617,11 +612,6 @@
     {
       "projectID": 239286,
       "fileID": 2934381,
-      "required": true
-    },
-    {
-      "projectID": 229261,
-      "fileID": 2859433,
       "required": true
     },
     {
