@@ -1,0 +1,1 @@
+{"id":"Anvilcraft","name":"Anvilcraft","type":"modpack","versions":[{"relations":[{"type":"included","linkType":"file","installer":"anvil.addonscript.install.DirInstaller","dir":"mods","link":"https://files.vexatos.com/Computronics/Computronics-1.12.2-1.6.6.jar"}]}]}
