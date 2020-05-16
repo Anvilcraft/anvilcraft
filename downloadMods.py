@@ -5,6 +5,7 @@ import os
 
 #Constants:
 manifestlocation="src/twitch/manifest.json"
+modpackjsonLocation="src/addonscript/modpack.json"
 
 def tryGetLink(projectID: str, fileID: str):
     while(True):
@@ -41,6 +42,22 @@ for file in manifestobj["files"]:
         responseLink = response.read().decode("utf-8")
         downloadLinks.append(responseLink)
         print("(" + str(i) + "/" + str(filecount) + ") Got Download Link For " + ntpath.basename(responseLink))
+
+#Yes i know this is very unclean but this script will be replaced with modpacktools later anyways
+try:
+    with open(modpackjsonLocation) as modpackjsonfile:
+        modpackjsondata = modpackjsonfile.read()
+except:
+    print("Modpackjson Not found!")
+    quit()
+modpackjsonobject = json.loads(modpackjsondata)
+
+modpackjsonrelations = modpackjsonobject["versions"][0]["relations"]
+
+for relation in modpackjsonrelations:
+    if relation["linkType"] == "file":
+        downloadLinks.append(relation["link"])
+        print("Got link for modpackjson mod " + ntpath.basename(relation["link"]))
 
 i = 0
 filecount = len(downloadLinks)
